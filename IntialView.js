@@ -176,7 +176,7 @@ function init_form_handler() {
     let form_data = new FormData(form_element);
     let job_object = new Object();
     job_object["id"] = num_of_card;
-    job_object["status"] = 2;
+    job_object["status"] = 1;
     num_of_card += 1;
     for (let [key, value] of form_data) {
       job_object[key] = value;
