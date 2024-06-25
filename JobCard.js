@@ -286,7 +286,7 @@ class JobCard extends HTMLElement {
     const status = data.status;
     const position = data.position;
     const date = data.date;
-    var img = "ImagesPL/image-solid.png";
+    var img = "image-solid.png";
     shadow_article.innerHTML = `
     <!-- BEGIN JOB CARD -->
     <div class="grid-container">
@@ -337,8 +337,8 @@ class JobCard extends HTMLElement {
 
       <!--       Trash/Pencil Icons -->
       <div class="grid-4">
-      <input class="delete-icon" type="image" src="ImagesPL/trash-solid.svg" />
-      <input class="edit-icon" type="image" src="ImagesPL/pen-solid.svg" />
+      <input class="delete-icon" type="image" src="trash-solid.svg" />
+      <input class="edit-icon" type="image" src="pen-solid.svg" />
       </div>
     </div>
 
